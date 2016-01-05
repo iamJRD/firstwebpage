@@ -1,0 +1,18 @@
+h1 {
+  font-family: garamond;
+  font-weight: lighter;
+  color: #6E6E6E;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 12px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
