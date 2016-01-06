@@ -16,3 +16,9 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
+
+.headers {
+  color: #8F99AB;
+  font-style: italic;
+  text-align: center;
+}
