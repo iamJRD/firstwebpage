@@ -22,3 +22,12 @@ img {
   font-style: italic;
   text-align: center;
 }
+
+.dark-background {
+  background-color: #000;
+  color: #FFF;
+}
+
+.light-background {
+  background-color: #FFF;
+}

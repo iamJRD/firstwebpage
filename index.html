@@ -1,21 +1,36 @@
-<!DOCTYPE html>
+cd c<!DOCTYPE html>
 <html>
   <head>
     <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Maybe Cat's Page</title>
   </head>
   <body>
-    <h1>About Maybe (the cat)</h1>
-    <h2 class="headers">Favorite Activities:</h2>
-      <ul>
-        <li>Sleeping in front of the heat vent</li>
-        <li>Harrasing human legs</li>
-        <li>Being indecsivie about being inside or not</li>
-        <li><a href="favorite-things.html">Loving on my humans</a></li>
-      </ul>
-    <h2 class="headers">Appearance</h2>
-      <p>Rounded grey body with head stripes. Small face. Long tail. </p>
-    <h3>How she came to live with us</h3>
-      <p>She was found in an abandoned house and is partially feral.</p>
+    <div class="container">
+      <h1>About Maybe (the cat)</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="headers">Favorite Activities:</h2>
+        <ul>
+          <li>Sleeping in front of the heat vent</li>
+          <li>Harrasing human legs</li>
+          <li>Being indecisive about being inside or not</li>
+          <li><a href="favorite-things.html">Loving on my humans</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+      <h2 class="headers">Appearance</h2>
+        <p>Rounded grey body with head stripes. Small face. Long tail. </p>
+      <h3>How she came to live with us</h3>
+        <p>She was found in an abandoned house and is partially feral.</p>
+      </div>
+      <button type="button" class="btn btn-primary center-block" id="background-dark">Change background color to dark</button>
+      <button type="button" class="btn btn-primary center-block" id="background-light">Change background color to light</button>
+
+      </div>
+    </div>
   </body>
 </html>
